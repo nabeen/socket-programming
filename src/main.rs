@@ -7,6 +7,7 @@ mod tcp_server;
 mod udp_client;
 mod udp_server;
 
+// TODO: 引数はenumで定義出来るのでは？
 fn main() {
     env::set_var("RUST_LOG", "debug");
     env_logger::init();
